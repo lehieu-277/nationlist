@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="nationlist.css">
+</head>
+
+<body>
+    <h1 id='page_heading'>
+        <div id="slogan">Mung Dang, mung xuan, mung dat nuoc doi moi</div>
+    </h1>
+    <div style="margin-top: 0;">
+        <button id="searchButton"></button>
+        <input text='text' placeholder="type the country you need to find..." id="searchBar"></input>
+    </div>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="abtus.html">About us</a></li>
+        <!-- <li id="dropdown">
+            <a href="" id="dropdownBtn">Area</a>
+            <div id="dropdown-content">
+                <a href="">Africa</a>
+                <a href="">Asia </a>
+                <a href="">Australia</a>
+                <a href="">Europe</a>
+                <a href="">America</a>
+            </div>
+        </li> -->
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Area</a>
+            <div class="dropdown-content">
+              <a href="#">Asia</a>	
+              <a href="#">Australia</a>
+              <a href="#">America</a>
+              <a href="#">Africa</a>
+              <a href="#">Antarctica</a>
+            </div>
+        </li>
+    </ul>
+    <div id="nations"></div>
+    <script src="nationlist.js"></script>
+    <script src="country.js"></script>
+</body>
+
+</html>
